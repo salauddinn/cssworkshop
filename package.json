@@ -1,0 +1,33 @@
+{
+  "name": "smacss-workshop",
+  "version": "1.0.0",
+  "description": "smacss workshop demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf ./dist",
+    "copy-html": "copy index.html ./dist/",
+    "copy": "copy ./src/assets/images/*.jpg ./src/assets/images/*.xyz ./dist/images",
+    "copyicon": "copy ./src/assets/images/*.ico ./src/assets/images/*.xyz ./dist/images",
+    "build": "webpack",
+    "serve": "npm run build && webpack-dev-server --hot --display-error-details"
+  },
+  "author": "Bijal",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.21.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.5.1",
+    "extract-text-webpack-plugin": "4.0.0-beta.0",
+    "file-loader": "^2.0.0",
+    "history": "^4.7.2",
+    "source-map-loader": "^0.2.3",
+    "webpack": "^4.20.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
