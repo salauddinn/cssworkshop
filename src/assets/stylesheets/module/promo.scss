@@ -1,0 +1,35 @@
+.promo {
+  margin: 20px;
+  width: 35%;
+  border-radius: 0 0 20px 0;
+  float: left;
+  background-color: lightgray;
+
+  &__img {
+  }
+  &__inline{
+    width: 50%;
+    float: left;
+  }
+  &__content {
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  &__desc {
+    margin: 15px 0 0 0;
+  }
+  &__header {
+    margin-bottom: 20px;
+    color: #0f204b;
+    padding: 0;
+    font-weight: bold;
+  }
+  &__anchor {
+    margin-top: 10px;
+    display: block;
+  }
+  &:hover{
+    box-shadow: 10px 10px 5px grey;
+  }
+
+}

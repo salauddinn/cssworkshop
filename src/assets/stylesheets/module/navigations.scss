@@ -1,0 +1,27 @@
+.navigation {
+  background-color: $yellow;
+
+  &_list {
+    font-size: $heading-text-size;
+    background-color: $yellow;
+    padding: 16px 0;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    &_item {
+      display: inline;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    &_anchor {
+      color: black;
+      display: block;
+
+      &:hover {
+        color: black;
+        display: block;
+        background-color: #e98300;
+      }
+    }
+  }
+}

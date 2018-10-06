@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family:'Arial';
+	margin: 0;
+	font-size: 100%;
+}
+.p {
+	font-size: 1rem;
+}
+
+a{
+	color:#e98300;
+	text-decoration: none;
+	&:hover{
+		color: #f0ab00;
+		text-decoration: none;
+	}
+}
+ul{
+	list-style-type: none;
+	overflow: hidden;
+}
+li {
+	float: left;
+	position: relative;
+}
